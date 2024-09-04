@@ -1,7 +1,13 @@
 import streamlit as st
+import os
 
 def show_tableau_graph(sheet_name, w, h):
-    sheet = st.secrets["TABLEAU_LINK"].format(sheet = sheet_name)
+    if os.path.isfile("./.env.tableau"):
+        from dotenv import load_dotenv
+        load_dotenv("./.env.tableau")
+        sheet = os.environ["TABLEAU_LINK"].format(sheet = sheet_name)
+    else:
+        sheet = st.secrets["TABLEAU_LINK"].format(sheet = sheet_name)
     st.components.v1.iframe(sheet, width = w, height = h)
 
 def sidebar_setup():
