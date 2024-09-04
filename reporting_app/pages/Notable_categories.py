@@ -2,6 +2,8 @@ import streamlit as st
 from utils import *
 
 def main():
+    st.set_page_config(page_title='Amazon UK Analysis')
+    
     sidebar_setup()
         
     st.title("Some Notable Categories on Amazon UK")

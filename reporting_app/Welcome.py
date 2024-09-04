@@ -2,8 +2,10 @@ import streamlit as st
 from utils import *
 
 def main():
+    st.set_page_config(page_title='Amazon UK Analysis')
+    
     sidebar_setup()
-        
+
     st.title("Analysis of UK Amazon Market in October 2023")
     
     st.subheader("Exploring Market Insights and Product Differentiation")
@@ -27,7 +29,7 @@ def main():
         - 🏷️ **Product Naming Trends**: Take a closer look at how top-selling products are named, revealing patterns 
         in naming conventions that might influence buyer behavior.
 
-        ### How to Use:
+        ### Now, let's explore the Amazon UK Market
         Navigate through the sidebar to access different sections of the analysis. Each section offers 
         interactive visualizations and detailed breakdowns to help you uncover meaningful insights.
         """
