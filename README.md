@@ -1,5 +1,7 @@
 # Amazon UK Analysis
 
+**Checkout the application [here](https://my-viz-amazon-uk-2023.streamlit.app/)**
+
 ## Project Overview
 
 This project focuses on analyzing a dataset of approximately 2 million products from Amazon UK, collected in October 2023. Inspired by [this Kaggle dataset](https://www.kaggle.com/datasets/asaniczka/amazon-uk-products-dataset-2023), the goal is to leverage data visualization and basic statistical tools to gain meaningful insights into the Amazon UK market.
