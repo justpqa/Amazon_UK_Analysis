@@ -20,7 +20,7 @@ def main():
     
     st.markdown(
         """
-        #### Health & Personal Care
+        #### Health & Personal Care ⚕️
         """
     )
     
@@ -75,7 +75,7 @@ def main():
     
     st.markdown(
         """
-        #### Grocery Products
+        #### Grocery Products 🍎
         """
     )
     

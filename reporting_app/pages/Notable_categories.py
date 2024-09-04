@@ -8,7 +8,7 @@ def main():
 
     st.markdown(
         """
-        #### Most Bought Category on Amazon UK
+        #### Most Bought Category on Amazon UK 🛒
         When we analyze different products on Amazon, one metrics that vendors care the most is the amount of product bought, so here we looked into the most bought categories (w.r.t the number of products.
         Specifically, we will look quickly into the top 20 most bought categories (calculated by the average amount of product bought per product)
         """
@@ -35,7 +35,7 @@ def main():
 
     st.markdown(
         """
-        #### Categories with most "Best Selling" product
+        #### Categories with most "Best Selling" product 🏷️
         Another thing that also caught my interest is how there are some categories that will attract more people to buy rather than some other,
         some type of products would be more popular on Amazon, so I also dive into the categories with rather high proportion of best selling products
         """

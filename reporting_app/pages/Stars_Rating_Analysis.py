@@ -4,7 +4,7 @@ from utils import *
 def main():
     sidebar_setup()
         
-    st.title("How Stars Rating matter in Amazon UK Market")
+    st.title("How ⭐ matter in Amazon UK Market")
 
     st.markdown(
         """
