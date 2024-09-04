@@ -47,10 +47,13 @@ def main():
         """
         It comes to my surprise that there are some categories that even though it has a pretty high rate of Best Selling Tag, 
         it still has higher price comparing to other, and it also a pretty high standard deviation of prices across products, 
-        which show how varied are those categories. Things like Billard & Pool or Professional Medical Supplies for example can have a variety of products, 
+        which show how varied are those categories. 
+        Things like Billard & Pool or Professional Medical Supplies for example can have a variety of products, 
         and the prices are varied (for Pools, cues can be a few hundred dollars while chalk can be 5-10 dollars.) 
         It also comes to my surprise how some rather odd categories like Wind Instrument can have a rather high rate of Best Selling Tag, 
         it would be interesting to look at these categories in the Amazon market of other regions to see if it has same trend.
+        At the same time, it might not be surprise to see how categories like these has lower rating in average, and similar to what we found in previous graph, 
+        we might suspect a categories overall rating would be related to its average price or price spread.
         """
     )
 
