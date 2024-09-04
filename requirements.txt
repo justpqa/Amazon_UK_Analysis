@@ -4,7 +4,7 @@ matplotlib
 seaborn
 scipy
 python-dotenv
-psycopg2 - commented out for deployment of streamlit app, uncomment for running other notebooks
+psycopg2 
 SQLAlchemy
 nltk
 streamlit
